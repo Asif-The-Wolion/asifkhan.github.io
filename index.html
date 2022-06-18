@@ -21,7 +21,7 @@
             <div class="flex space-x-3 items-center w-1/2 md:w-1/4 text-xs md:text-base">
                 <div
                     class="hover:text-white hover:bg-violet-400 hover:rounded-lg active:border-cyan-300 border-b-2 p-1 border-violet-400">
-                    <a href="/">Home</a>
+                    <a href="#">Home</a>
                 </div>
                 <div
                     class="hover:text-white hover:bg-violet-400 hover:rounded-lg active:border-cyan-300 border-b-2 p-1 border-violet-400">
@@ -40,26 +40,37 @@
     </nav>
     <!-- header -->
     <header class="border-2 shadow border-violet-900 md:border-0 md:border-white">
-        <div id="about" class="p-5 md:flex">
-            <div id="intro-text" class="p-3 md:w-1/2 font-semibold">
-                <div class="text-xs md:text-sm text-violet-500">Hey There 👋 I am</div>
-                <div class="text-2xl md:text-5xl md:h-14 uppercase h-9 text-violet-900">Asif Khan</div>
-                <div class="text-xs md:text-lg h-8 text-gray-500">upProfessional <i
-                        class="text-violet-900 md:font-bold font-medium">Something</i></div>
+        <div id="about" class="p-5">
+            <div id="intro-text" class="p-3 font-semibold">
+                <div class="flex md:justify-around justify-evenly">
+                    <div class="md:grid md:justify-items-start h-36 md:h-36">
+                        <div class="text-xs md:h-0 md:text-sm text-violet-500">Hey There 👋 I am</div>
+                        <div class="text-2xl md:text-5xl uppercase md:h-0 h-9 text-violet-900">Asif Khan</div>
+                        <div class="text-xs w-40 md:w-96 md:h-0 md:text-base h-8 text-gray-500">upProfessional Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, voluptatibus. Repudiandae, aspernatur! <i
+                                class="text-violet-900 md:font-bold font-medium">Something</i></div>
+        
+                    </div>
+                    <div class="flex md:justify-center justify-end w-60 md:w-1/2  ">
+                                <img src="akeme-compress.jpg" class="md:w-48 w-34 md:h-48 h-32 rounded-full border-y-violet-700 border-y-2" alt="showing">
+                
+                            </div>
+    
+                </div>
                 <div class="text-xs md:text-base md:h-20 h-11 text-gray-500 text-justify">
                     I am an expert at google business profiles and know how to digitally catapult your business into
                     orbit! If you need any assistance, ping me. I help people who want to make their business an actual
                     commercial success and money-making machine. I love learning new things and making them work for me.
                     I'm a coder, blogger, and an expert with google business profiles.
                 </div>
-                <button class="bg-white text-violet-900 border-2 border-violet-500 hover:bg-violet-500 hover:border-0 hover:text-white uppercase mt-20 md:mt-28 h-8 p-1 rounded-xl text-xs w-[20vw]"><a
+                <div class=" flex justify-center space-x-2 md:justify-center">
+                    <button
+                    class="bg-white text-violet-900 border-2 border-violet-500 hover:bg-violet-500 hover:border-0 hover:text-white uppercase mt-20 md:mt-5 h-8 p-1 rounded-xl text-xs w-[20vw]"><a
                         href="#projects">projects</a></button>
-                <button class="bg-violet-900 hover:border-violet-500 hover:bg-violet-500 hover:border-2 hover:text-white uppercase h-8 text-white p-1 rounded-xl text-xs w-[20vw]"><a
+                <button
+                    class="bg-violet-900 hover:border-violet-500 hover:bg-violet-500 hover:border-2 hover:text-white uppercase h-8 text-white mt-20 md:mt-5 p-1 rounded-xl text-xs w-[20vw]"><a
                         href="https://khanvegfarm.business.site/">business</a></button>
-            </div>
 
-            <div id="main-about" class="flex items-center md:items-end md:w-1/2 justify-evenly "> 
-                    <a href=""><img class="border-fuchsia-600 border-y-2 grid rounded-xl w-[100vw]  md:w-[40vw] md:rounded-full " src="/akeme-compress.jpg" alt="no folder"></a>
+                </div>
             </div>
         </div>
 
@@ -113,7 +124,8 @@
                 <div
                     class="border-2 border-green-500 hover:border-violet-500 w-[70vw] md:w-[20vw] rounded-md md:animate-bounce md:rounded-full">
                     <a href="">
-                        <img class="md:animate-bounce md:rounded-full grid items-center" src="imgs/khan veg farm logo.png" alt="">
+                        <img class="md:animate-bounce md:rounded-full grid items-center"
+                            src="imgs/khan veg farm logo.png" alt="">
                     </a>
                 </div>
             </div>
@@ -138,7 +150,9 @@
     <hr>
     <!-- contact -->
     <div class="mt-5">
-        <div class="bg-violet-900  rounded-full mx-0 md:mx-20 tracking-widest text-white p-5 uppercase grid items-center justify-center">contact with me</div>
+        <div
+            class="bg-violet-900  rounded-full mx-0 md:mx-20 tracking-widest text-white p-5 uppercase grid items-center justify-center">
+            contact with me</div>
     </div>
     <!-- social media -->
     <!-- contact form -->
@@ -830,16 +844,16 @@
 
                     <ul class="list-none mb-0">
                         <li>
-                            <a href="/" class="text-white">Home</a>
+                            <a href="#" class="text-white hover:animate-pulse">Home</a>
                         </li>
                         <li>
-                            <a href="contact.html" class="text-white">Contact</a>
+                            <a href="#contact" class="text-white">Contact</a>
                         </li>
                         <li>
-                            <a href="about.html" class="text-white">About Me</a>
+                            <a href="#about" class="text-white">About Me</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-white">Other projects</a>
+                            <a href="#project" class="text-white">Other projects</a>
                         </li>
                     </ul>
                 </div>
